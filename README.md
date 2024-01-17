@@ -40,7 +40,7 @@ sudo apt install python3-pip
 Step 3: Install the python-telegram-bot Library
 Install the library using PIP (**NOTE: This Needs to be sudo installed. Had errors w/ service when I didn't use sudo**):
 ```
-pip3 install python-telegram-bot
+sudo pip3 install python-telegram-bot
 ```
 Step 4: Create the Python Script
 Open a text editor to write the script. You can use nano or your preferred text editor:
