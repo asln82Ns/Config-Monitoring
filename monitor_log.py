@@ -55,7 +55,7 @@ def monitor_log_file():
 
                     # Error Check
                     if error_count >= ERROR_THRESHOLD:
-                        message = (f"Error threshold reached: {error_count} errors detected in the last chunk. " +
+                        message = (f"Error threshold reached: {error_count} errors detected in the last chunk." +
                                    f"Chunk processed from byte {last_checked_position} to byte {new_position}.")
                         asyncio.run(send_telegram_message(message))
 
