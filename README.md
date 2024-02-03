@@ -180,4 +180,4 @@ sudo systemctl daemon-reload
 sudo systemctl restart logmonitor.service
 
 To test you can modify the monitor.py script here ```if '[ERROR]' in line:``` to something that occurs more frequently and see if messages show up.
-Adjust health check intervals if you don't like 15mins.
+Adjust health check message intervals if you don't like 15mins. NOTE: finalization count is for the last 60 seconds based on sleep period, not the last interval time.
